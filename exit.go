@@ -40,6 +40,9 @@ func Handler() {
         if s, ok := e.(Status); ok {
             os.Exit(s.ExitCode())
         }
+        // not something that we can handle...
+        // time to panic lol
+        panic(e)
     }
 }
 
