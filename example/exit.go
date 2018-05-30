@@ -3,7 +3,7 @@ package main
 import (
     "os"
     "fmt"
-    "exit"
+    "github.com/sugoiuguu/go-exit"
 )
 
 type ExitStatus int
